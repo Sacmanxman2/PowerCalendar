@@ -59,3 +59,5 @@ This is a calendar for power users. It includes advanced features like commute p
         - Gives you slots for different meals
         - Lets you plan who's going to be at what meal
         - Lets you plan what's at each meal
+    - Miles-tracking
+        - Lets you tag different events as "work" events and helps you track miles for those events.
