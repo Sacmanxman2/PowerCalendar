@@ -1,9 +1,9 @@
-# README: Jareds Power Calendar
-This is a calendar for power users. It includes advanced features like commute planning, mass editing, cli-support, and more. It can be both locally hosted or accessed on a server.
+# Jareds Power Calendar
+This is a calendar for power users. It includes advanced features like commute planning, mass editing, cli-support, and more. It can be both locally hosted or accessed on a server. This is just brainstorming at the moment, none of these are promised features.
 
 ## To-Do:
 - Find a better name for it
-- Create a database for 
+- Everything else
 
 ## Structure:
 - Database to hold information about the calendar
@@ -33,7 +33,15 @@ This is a calendar for power users. It includes advanced features like commute p
 - Calendar import/sync
     - Can import & sync data from Google Calendar, Cozi, and anything iCal format.
     - Will allow you to change events from other calendars locally. If there's a conflict (for example, you change the event time on your calendar, but someone changes it on the source calendar), it will inform you and allow you to adjust what's necessary. - Not sure if this is possible yet.
-- Plugin support
+- Views
+    - Day
+    - n-day
+    - Week
+    - Agenda
+    - Month
+    - To-Do
+    - Project board (like a Kanban calendar) - maybe
+- Plugins
     - School plugin
         - Event type for classes
         - To-Dos associated with classes
@@ -47,3 +55,7 @@ This is a calendar for power users. It includes advanced features like commute p
         - Commute-time can change for mode of transportation, and mode can change based on events intelligently (if the weather is nice enough for biking/walking and the distance isn't too far, it might suggest biking/walking instead)
         - Biking times can be adjusted based on fitness level (so if it takes you less time to bike than average, you can adjust accordingly)
         - Biking times would take into account average set-up time (to check your tires, load up, lock up your bike, etc.)
+    - Meal planning plugin
+        - Gives you slots for different meals
+        - Lets you plan who's going to be at what meal
+        - Lets you plan what's at each meal
